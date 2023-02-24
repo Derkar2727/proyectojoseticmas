@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- LINK BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- LINK FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- LINK FONT ROBOTO -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- LINK CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- LINK FAVICON -->
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__logo">
+        <img src="img/logo.png" alt="" class="nav__logo--img">
+      </div>
+      <div class="nav__container">
+        <div class="nav__container--menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav__container--list">
+          <li class="nav__container--items"><a href="#" class="nav__container--link">Inicio</a></li>
+          <li class="nav__container--items"><a href="#about" class="nav__container--link">Acerca de</a></li>
+          <li class="nav__container--items"><a href="#proyects" class="nav__container--link">Proyectos</a></li>
+          <li class="nav__container--items nav__container--contact"><a href="#"
+              class="nav__container--link">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header__container">
+      <h1 class="header__container--title">JOSE CV</h1>
+    </div>
+  </header>
+  <main>
+    <section class="container text-center my-5 about">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <img src="img/user.jpg" class="about__img" alt="">
+        </div>
+        <div id="about" class="col-sm-12 col-md-8 about__container">
+          <div class="about__container--text fs-5">
+            <h2 class="about__container--title">ACERCA DE MI</h2>
+            <p class="about__container--descrip">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+              necessitatibus eaque ea incidunt quos unde soluta adipisci, quo officia similique, maiores modi ex aut
+              laudantium dignissimos reiciendis aspernatur amet ducimus cumque mollitia aperiam! Quis deleniti neque,
+              veritatis harum odit velit!</p>
+          </div>
+          <div class="about__container--text fs-5">
+            <h2 class="about__container--title">Stack de Lenguajes</h2>
+            <p class="about__container--descrip--2"><i class="fa-brands fa-html5"></i><i
+                class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="info__container">
+        <!-- estudios -->
+        <div class="info__container--container">
+          <h3 class="study__title">Educacíon</h3>
+          <p class="study__text">Instituto Argentino de Peluquería y Belleza<br><span class="study__text--span">iniciado
+              3/2012 - finalizado 11/2014</span></p>
+        </div>
+        <!-- trabajos -->
+        <div class="info__container--container">
+          <h3 class="work__title">Experiencia Profesional</h3>
+          <p class="work__text">Luxury (Peluquería estilista) - Dueño<br><span class="work__text--span">Junio 2015 -
+              Actualidad</span></p>
+          <ul class="work__list">
+            <li class="work__list--items">lorem ipsum</li>
+            <li class="work__list--items">lorem rew gtsdf ktrrkl</li>
+            <li class="work__list--items">Lorem ipsum dolor sit amet consectet</li>
+            <li class="work__list--items">lorem ipsum dolor</li>
+            <li class="work__list--items">Lorem ipsum dolor sit amet.</li>
+          </ul>
+        </div>
+        <!-- aptitudes -->
+        <div class="info__container--container">
+          <h3 class="apt__title">Aptitudes</h3>
+          <ul class="apt__list">
+            <li class="apt__list--items">liderazgo</li>
+            <li class="apt__list--items">empatia</li>
+            <li class="apt__list--items">trabajo en equipo</li>
+            <li class="apt__list--items">Creatividad</li>
+            <li class="apt__list--items">Autonomia</li>
+            <li class="apt__list--items">Buena Comunicación</li>
+            <li class="apt__list--items">Organización</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="proyects" id="proyects">
+      <div class="proyects__container">
+        <h2 class="proyects__container--title">PROYECTOS</h2>
+        <p class="proyects__container--text">Acá dejo algunos proyectos que realicé anteriormente</p>
+        <div class="cards">
+          <div class="cards__container">
+            <img src="img/sitio01.png" class="cards__img" alt="servicio de reparaciones eficap">
+            <div class="cards__hover">
+              <h2 class="cards__hover--title">Opera</h2>
+              <p class="cards__hover--text">LandingPage de decoraciones de cocina</p>
+            </div>
+          </div>
+          <div class="cards__container">
+            <img src="img/sitio02.png" class="cards__img" alt="servicio de reparaciones eficap">
+            <div class="cards__hover">
+              <h2 class="cards__hover--title">Kisnta</h2>
+              <p class="cards__hover--text">Página para crear páginas webs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer container text-center mt-4">
+      <div class="row py-3">
+        <div class="col-2 fs-5 fw-light footer__logo">JOSE CV</div>
+        <div class="col-6 offset-1 fw-light text-muted">&copy;2023 Jose |Derechos Reservados</div>
+        <div class="col-2">
+          <a href="#" target="_blank" class="footer__icon">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="#" class="footer__icon">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="footer__icon">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="#" class="footer__icon">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
